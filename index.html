@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapheal Kwabena Asomani Gadoh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            font-size: 24px;
+            color: #333;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #0077b5; /* LinkedIn blue by default */
+            transform: scale(1.2);
+        }
+        .fa-instagram:hover { color: #E4405F; }
+        .fa-github:hover { color: #171515; }
+        .fa-facebook:hover { color: #1877F2; }
+        .fa-google-drive:hover { color: #4285F4; }
+    </style></head>
+<body>
+    <header>
+        <nav class="glass">
+            <div class="logo">Young Gem</div>
+            <ul class="nav-links">
+                <li><a class="nav-btn active" data-section="home">Home</a></li>
+                <li><a class="nav-btn" data-section="bio">Bio</a></li>
+                <li><a class="nav-btn" data-section="portfolio">Portfolio</a></li>
+           
+                <li><a class="nav-btn" data-section="elevator-pitch">Elevator Pitch</a></li>
+                <li><a class="nav-btn" data-section="certifications">Certifications</a></li>
+            </ul>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="home-content">
+                <div class="home-text slide-up">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1>Rapheal Kwabena <span class="highlight">Asomani Gadoh</span></h1>
+                    <p class="bio">Aspiring frontend developer with a passion for creating visually stunning and user-friendly websites.</p>
+                    <div class="cta-buttons">
+                        <a href="#portfolio" class="btn btn-primary section-link" data-section="portfolio">View My Work</a>
+                        <a href="#elevator-pitch" class="btn btn-secondary section-link" data-section="elevator-pitch">Hear My Pitch</a>
+                    </div>
+                </div>
+                <div class="home-image fade-in">
+                    <img src="profile.jpg" alt="Rapheal Kwabena Asomani Gadoh" class="profile-pic">
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/younggem/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/_he.istroy/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Rapheal-Kwabena" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="facebook" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://drive.google.com/drive/folders/19iY0UkbShTgYEnxzRzbhlmrvcTIdI8EZ?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-google-drive"></i>
+                </a>
+            </div>
+
+        </section>
+
+        <!-- Bio Section -->
+        <section id="bio" class="section">
+            <h2 class="section-title">My Background</h2>
+            <div class="bio-content">
+                <div class="bio-card glass slide-up">
+                    <div class="card-icon">👨‍💻</div>
+                    <h3 class="card-title">What I do</h3>
+                    <p>I am a skilled and creative frontend web developer with a passion for crafting engaging and user-friendly web interfaces. My expertise lies in transforming design concepts into responsive and visually appealing websites and web applications. With a strong foundation in HTML, CSS, and JavaScript, I excel at implementing responsive design, optimizing performance, and ensuring cross-browser compatibility.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Full-Stack</span>
+                        <span class="skill-tag">Web Apps</span>
+                        <span class="skill-tag">Mobile</span>
+                    </div>
+                </div>
+
+                <div class="bio-card glass slide-up" style="animation-delay: 0.2s;">
+                    <div class="card-icon">🛠️</div>
+                    <h3 class="card-title">Tech Stack</h3>
+                    <p>I work with modern technologies to build fast, responsive, and secure applications. My expertise spans across multiple domains, including frontend development, backend engineering, cloud computing, and AI-driven solutions.My toolkit includes:</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+
+                <div class="bio-card glass slide-up" style="animation-delay: 0.4s;">
+                    <div class="card-icon">🎓</div>
+                    <h3 class="card-title">Education</h3>
+                    <p>I am a High School Graduate with a strong foundation in both technical and analytical fields. My academic journey has been shaped by a deep passion for problem-solving, innovation, and technology.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Highschool Diploma</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Robotics</span>
+                        <span class="skill-tag">Business</span>
+                        <span class="skill-tag">Mathematics & Logical Reasoning</span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <h2 class="section-title">Portfolio Highlights</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card glass fade-in">
+                    <div class="portfolio-image">
+                        <img src="edulearn.jpeg" alt="Portfolio 1">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">Edulearn</h3>
+                        <p>Edu Learn provides instant feedback, helping users identify strengths and areas for improvement while fostering personalized learning. Designed to be accessible and user-friendly, it encourages users to track their progress and share experiences in a community-driven space. </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">Websockets</span>
+                        </div>
+                        <a href="https://edulearn-trivial.vercel.app/" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass fade-in" style="animation-delay: 0.2s;">
+                    <div class="portfolio-image">
+                        <img src="summarizer.jpg" alt="Portfolio 2">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">Article Summarizer with GPT-4</h3>
+                        <p>An AI-powered tool that effortlessly summarizes lengthy articles using OpenAI's GPT-4. Users can simply input a URL to get quick insights, making information consumption more efficient and focused.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                           <a href="https://richmondazadze.github.io/AI-Summarizer/" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass fade-in" style="animation-delay: 0.4s;">
+                    <div class="portfolio-image">
+                        <img src="pennytrack.png" alt="Portfolio 3">
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">Penny Tracker</h3>
+                        <p>A web-based expense tracking application that helps users manage their finances effortlessly. Features an intuitive interface for tracking personal expenses.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Material UI</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <a href="https://pennytrack.tech/" class="btn btn-secondary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+        <!-- Elevator Pitch Section -->
+        <section id="elevator-pitch" class="section" style="text-align: center;">
+            <h2 class="section-title">My Elevator Pitch</h2>
+            <div class="video-container glass slide-up" style="display: flex; justify-content: center; align-items: center;">
+                <video controls style="width: 80%; max-width: 350px; height: auto;">
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card glass fade-in">
+                    <div class="certification-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <h3 class="certification-title">AI Career Essentials</h3>
+                    <p class="certification-issuer">ALX</p>
+                    <p class="certification-date">August 2028</p>
+                    <p>Awarded by ALX, this certification recognizes my foundational expertise in Artificial Intelligence, Machine Learning, and AI-driven problem-solving. Through this program, I gained hands-on experience in AI applications, ethical considerations, and industry best practices, equipping me to leverage AI for innovation and impact.</p>
+                    <a href="aice.jpg" class="btn btn-secondary">View Cert</a>
+                </div>
+
+                <div class="certification-card glass fade-in" style="animation-delay: 0.2s;">
+                    <div class="certification-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    </div>
+                    <h3 class="certification-title">Hp Life</h3>
+                    <p class="certification-issuer">Hp</p>
+                    <p class="certification-date">September 2024</p>
+                    <p>Certified by HP Life, these courses equipped me with essential financial literacy and leadership skills. Through Basic Finance, I developed a strong understanding of budgeting, financial planning, and business decision-making. The Effective Leadership course enhanced my ability to lead teams, communicate effectively, and drive positive change in organizations.</p>
+                    <a href="hplife.jpg" class="btn btn-secondary">View Cert</a>
+                    <a href="hplife 2.jpg" class="btn btn-secondary">View Cert</a>
+                    <a href="hplife 3.jpg" class="btn btn-secondary">View Cert</a>
+                </div>
+
+                <div class="certification-card glass fade-in" style="animation-delay: 0.4s;">
+                    <div class="certification-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y
